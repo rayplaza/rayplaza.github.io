@@ -242,7 +242,7 @@ html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,12 +272,22 @@ html {
   min-height: 100%;
 }
 
+.bgimg-5 {
+  background-image: url("./rpimages/code.jpg");
+  min-height: 400px;
+}
+
+.bgimg-6 {
+  background-image: url("./rpimages/california.jpg");
+  min-height: 400px;
+}
+
 .rp-wide {letter-spacing: 10px;}
 .rp-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
     background-attachment: scroll;
     min-height: 400px;
   }
