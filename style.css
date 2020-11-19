@@ -282,6 +282,15 @@ html {
   min-height: 400px;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
 .rp-wide {letter-spacing: 10px;}
 .rp-hover-opacity {cursor: pointer;}
 
@@ -292,3 +301,4 @@ html {
     min-height: 400px;
   }
 }
+
